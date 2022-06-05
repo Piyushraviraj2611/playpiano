@@ -8,31 +8,25 @@ tag.style.borderRadius="8px";
 tag.style.fontFamily="Rockwell";
 
 
-document.querySelector("body").style.backgroundImage="URL('sound/w3.jpg')" ;
+document.querySelector("body").style.backgroundImage="URL('w3.jpg')" ;
 //document.querySelector(".container").style.background="#edc1ec";
 
 
 document.getElementsByTagName("label")[0].addEventListener("click",function(){
-    var audio=new Audio('sound/key01.mp3');
+    var audio=new Audio('key01.mp3');
     audio.play();
-});
-document.getElementsByTagName("label")[0].addEventListener("keyup",e=>{
-    e.preventDefault();
-    if(e.keycode===105){
-        document.getElementsByTagName("label")[0].click();
-    }
 });
 
 document.getElementsByTagName("label")[1].addEventListener("click",function(){
-    var audio=new Audio('sound/key02.mp3');
+    var audio=new Audio('key02.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[2].addEventListener("click",function(){
-    var audio=new Audio('sound/key03.mp3');
+    var audio=new Audio('key03.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[3].addEventListener("click",function(){
-    var audio=new Audio('sound/key04.mp3');
+    var audio=new Audio('key04.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[4].addEventListener("click",function(){
@@ -40,15 +34,15 @@ document.getElementsByTagName("label")[4].addEventListener("click",function(){
     audio.play();
 });
 document.getElementsByTagName("label")[5].addEventListener("click",function(){
-    var audio=new Audio('sound/key06.mp3');
+    var audio=new Audio('key06.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[6].addEventListener("click",function(){
-    var audio=new Audio('sound/key07.mp3');
+    var audio=new Audio('key07.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[7].addEventListener("click",function(){
-    var audio=new Audio('sound/key08.mp3');
+    var audio=new Audio('key08.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[8].addEventListener("click",function(){
@@ -56,15 +50,15 @@ document.getElementsByTagName("label")[8].addEventListener("click",function(){
     audio.play();
 });
 document.getElementsByTagName("label")[9].addEventListener("click",function(){
-    var audio=new Audio('sound/key10.mp3');
+    var audio=new Audio('key10.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[10].addEventListener("click",function(){
-    var audio=new Audio('sound/key11.mp3');
+    var audio=new Audio('key11.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[11].addEventListener("click",function(){
-    var audio=new Audio('sound/key12.mp3');
+    var audio=new Audio('key12.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[12].addEventListener("click",function(){
@@ -72,42 +66,42 @@ document.getElementsByTagName("label")[12].addEventListener("click",function(){
     audio.play();
 });
 document.getElementsByTagName("label")[13].addEventListener("click",function(){
-    var audio=new Audio('sound/key14.mp3');
+    var audio=new Audio('key14.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[14].addEventListener("click",function(){
-    var audio=new Audio('sound/key15.mp3');
+    var audio=new Audio('key15.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[15].addEventListener("click",function(){
-    var audio=new Audio('sound/key16.mp3');
+    var audio=new Audio('key16.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[16].addEventListener("click",function(){
-    var audio=new Audio('sound/key17.mp3');
+    var audio=new Audio('key17.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[17].addEventListener("click",function(){
-    var audio=new Audio('sound/key18.mp3');
+    var audio=new Audio('key18.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[18].addEventListener("click",function(){
-    var audio=new Audio('sound/key19.mp3');
+    var audio=new Audio('key19.mp3');
     audio.play();
 });
 document.getElementsByTagName("label")[19].addEventListener("click",function(){
-    var audio=new Audio('sound/key20 .mp3');
+    var audio=new Audio('key20 .mp3');
     audio.play();
 });document.getElementsByTagName("label")[20].addEventListener("click",function(){
-    var audio=new Audio('sound/key21.mp3');
+    var audio=new Audio('key21.mp3');
     audio.play();
 });document.getElementsByTagName("label")[21].addEventListener("click",function(){
-    var audio=new Audio('sound/key22.mp3');
+    var audio=new Audio('key22.mp3');
     audio.play();
 });document.getElementsByTagName("label")[22].addEventListener("click",function(){
-    var audio=new Audio('sound/key23.mp3');
+    var audio=new Audio('key23.mp3');
     audio.play();
 });document.getElementsByTagName("label")[23].addEventListener("click",function(){
-    var audio=new Audio('sound/key24.mp3');
+    var audio=new Audio('key24.mp3');
     audio.play();
 });
